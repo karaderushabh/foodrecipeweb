@@ -1,0 +1,45 @@
+/* header.css */
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content h1 {
+  margin: 0;
+}
+
+.button-link {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  background-color: transparent; /* Set background color to transparent */
+  border: 1px solid transparent; /* Add border to maintain button shape */
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s; /* Add border-color transition */
+}
+
+.button-link:hover {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Change background color on hover */
+  border-color: rgba(255, 255, 255, 0.3); /* Change border color on hover */
+  transition: background-color 0.3s, border-color 0.3s; /* Add transition for smooth hover effect */
+}
+
+.button-link + .button-link {
+  margin-left: 10px; /* Add space between buttons */
+}
