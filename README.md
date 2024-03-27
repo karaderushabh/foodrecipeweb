@@ -5,7 +5,7 @@ This is a React web application for managing recipes. It provides features like 
 Setup Instructions:
 
 1. Clone the repository:
-   git clone <repository_url>
+   git clone https://github.com/karaderushabh/foodrecipeweb
 
 2. Navigate to the project directory:
    cd react-web-app
